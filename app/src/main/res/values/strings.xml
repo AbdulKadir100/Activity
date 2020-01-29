@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string-array name="actions">
+        <item>Do Nothing</item>
+        <item>Visit google</item>
+        <item>Call SomeOne</item>
+        <item>Map of yet space</item>
+        <item>Take Picture</item>
+        <item>Edit First Contact</item>
+    </string-array>
+    <string
+        name="string_name"
+        >text_string</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#757575"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#212121"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Second Activity"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_centerInParent="true"
+        android:text="Nothing Selected Yet"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#009688"
+        android:padding="30dp"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <Button
+            android:layout_width="@dimen/dimension"
+            android:id="@+id/myButton2"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="First Activity"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:background="#4CAF50" />
+        <Button
+            android:layout_width="@dimen/dimension"
+            android:id="@+id/DetailButton3"
+            android:layout_height="wrap_content"
+            android:text="Detail Activity"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:padding="40dp"
+            android:background="#FF5722"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

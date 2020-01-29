@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#BDBDBD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="#ffffffff"
+        android:text="FirstActivity"
+        android:padding="30dp"
+        android:background="#00BCD4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Tv1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/TV4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00796B"
+            android:text="Second Activity"
+            android:textSize="30dp"
+            android:padding="40dp"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:id="@+id/myButton" />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#607D8B"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/TV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#009688"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Detail Activity"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"/>
+    <Spinner
+        android:id="@+id/spinnerSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/actions"
+        android:padding="70dp"
+        android:background="#00BCD4"
+        >
+
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/ReturnButton4"
+            android:layout_width="@dimen/dimension"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:padding="40dp"
+            android:text="Return Selection"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="@dimen/dimension"
+            android:id="@+id/myButton5"
+            android:layout_height="wrap_content"
+            android:text="Perform Selection"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:padding="40dp"
+            android:background="#FF5722"/>
+    </LinearLayout>
+
+</RelativeLayout>
